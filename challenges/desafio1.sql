@@ -29,6 +29,7 @@ CREATE TABLE SpotifyClone.cancoes(
 	id_cancoes INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
 	nome_cancoes VARCHAR(100),
     album_id INT NOT NULL,
+    duracao INT NOT NULL,
      FOREIGN KEY (album_id) REFERENCES album(album_id)
 ) engine = InnoDB;
 
@@ -88,18 +89,18 @@ VALUES
   ('Somewhere Far Beyond', '5'),
   ('I Put A Spell On You', '6');
 
-INSERT INTO SpotifyClone.cancoes (album_id, nome_cancoes)
+INSERT INTO SpotifyClone.cancoes (album_id, nome_cancoes, duracao)
 VALUES
-  ('1', 'BREAK MY SOUL'),
-  ('1', "VIRGO'S GROOVE"),
-  ('1', 'ALIEN SUPERSTAR'),
-  ('2', "Don't Stop Me Now"),
-  ('2', 'Under Pressure'),
-  ('3', 'Como Nossos Pais'),
-  ('3', 'O Medo de Amar é o Medo de Ser Livre'),
-  ('4', 'Samba em Paris'),
-  ('5', "The Bard's Song"),
-  ('6', 'Feeling Good');
+  ('1', 'BREAK MY SOUL', '279'),
+  ('1', "VIRGO'S GROOVE", '369'),
+  ('1', 'ALIEN SUPERSTAR', '116'),
+  ('2', "Don't Stop Me Now", '203'),
+  ('2', 'Under Pressure', '152'),
+  ('3', 'Como Nossos Pais', '105'),
+  ('3', 'O Medo de Amar é o Medo de Ser Livre', '207'),
+  ('4', 'Samba em Paris', '267'),
+  ('5', "The Bard's Song", '244'),
+  ('6', 'Feeling Good', '100');
 
 INSERT INTO SpotifyClone.historico (user_id, rep_historico)
 VALUES
