@@ -11,6 +11,7 @@ CREATE TABLE SpotifyClone.usuarios(
 	user_id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
     nome VARCHAR(70),
     id_plano INT NOT NULL,
+    idade INT,
     FOREIGN KEY (id_plano) REFERENCES planos(id_plano)
 ) engine = InnoDB;
 
@@ -58,18 +59,18 @@ VALUES
   ('universitário', '5.99'),
   ('pessoal', '6.99');
 
-INSERT INTO SpotifyClone.usuarios (nome, id_plano)
+INSERT INTO SpotifyClone.usuarios (nome, id_plano, idade)
 VALUES
-  ('Barbara Liskov', '1'),
-  ('Robert Cecil Martin', '1'),
-  ('Ada Lovelace', '2'),
-  ('Martin Fowler', '2'),
-  ('Sandi Metz', '2'),
-  ('Paulo Freire', '3'),
-  ('Bell Hooks', '3'),
-  ('Christopher Alexander', '4'),
-  ('Judith Butler', '4'),
-  ('Jorge Amado', '4');
+  ('Barbara Liskov', '1', '82'),
+  ('Robert Cecil Martin', '1', '58'),
+  ('Ada Lovelace', '2', '37'),
+  ('Martin Fowler', '2', '46'),
+  ('Sandi Metz', '2', '58'),
+  ('Paulo Freire', '3', '19'),
+  ('Bell Hooks', '3', '26'),
+  ('Christopher Alexander', '4', '85'),
+  ('Judith Butler', '4', '45'),
+  ('Jorge Amado', '4', '58');
 
 INSERT INTO SpotifyClone.artistas (nome_artista)
 VALUES
