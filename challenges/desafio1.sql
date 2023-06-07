@@ -78,7 +78,7 @@ VALUES
   ('Elis Regina'),
   ('Baco Exu do Blues'),
   ('Blind Guardian'),
-  ('Nina SImone');
+  ('Nina Simone');
 
 INSERT INTO SpotifyClone.album (nome_album, artista_id)
 VALUES
