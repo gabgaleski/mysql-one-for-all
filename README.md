@@ -1,10 +1,29 @@
-# :construction: README em construção ! :construction:
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto.
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
--->
+# :spiral_notepad: MySQL One-for-all :spiral_notepad:
+
+<br>
+
+ <img width="700" alt="Imagem pagina wallet" src="./proj.png">
+
+<br>
+
+# :clipboard: About
+O projeto tinha como objetivo testar os conhecimentos na criação de banco de dados e na manipulação das tabelas dentro do mesmo, utilizando o MySQL junto do Workbench
+dentro de um container Docker criado pelo Docker Coompose.
+<br>
+Nele foi criado um banco de dados, seguindo as 3 formas normais, a partir de uma planilha do Exel. Logo depois realizado diversos exercicios na manipulação das tabelas,
+utilizando algumas funçoes do MySQL como: SELECT, JOIN, AGROUP BY, ORDER BY, LIMIT, entre outras.
+<br>
+
+
+<br>
+
+# :hammer_and_wrench: Skills & Tools
+
+- Docker
+- Docker Compose
+- MySQL
+- MySQL Workbench
+
+<br>
+
+ 
